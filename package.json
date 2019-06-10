@@ -13,6 +13,10 @@
   "author": "Jacob Goodwin <jacob.goodwin@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-regular-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "cross-env": "^5.2.0",
     "hugo-bin": "^0.43.6",
     "npm-run-all": "^4.1.5",
