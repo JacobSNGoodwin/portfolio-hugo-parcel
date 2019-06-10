@@ -5,9 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ .Site.Title }}</title>
+  {{ $assets := .Site.Data.assets }}
+  {{ with $assets.css }}
+    <link href="{{ relURL . }}" rel="stylesheet">
+  {{ end }}
 </head>
 <body>
-  <h1>This is the main hugo page, sons!</h1>
-   {{ block "main" . }}{{end}}
+  <h1 class="main">This is the main hugo page, sons!</h1>
+  {{ block "main" . }}{{end}}
+
+  {{ with $assets.js }}
+    <script src="{{ relURL .}}"></script>
+  {{end}}
 </body>
 </html>

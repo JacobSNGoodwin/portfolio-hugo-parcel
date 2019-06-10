@@ -2,10 +2,11 @@
   "name": "portfolio-hugo-parcel",
   "version": "1.0.0",
   "description": "Portfolio webpage template using hugo for templating and parceljs for its asset pipeline :)",
-  "main": "index.js",
   "scripts": {
-    "dev:hugo": "hugo -d ../dist -s site -vw -D -F",
-    "dev:parcel": "parcel src/index.js"
+    "dev:hugo": "hugo server -d ../dist -s site -D -F",
+    "dev:parcel": "parcel watch src/index.js",
+    "dev": "run-p dev:**",
+    "build:parcel": "parcel build src/index.js"
   },
   "author": "Jacob Goodwin <jacob.goodwin@gmail.com>",
   "license": "MIT",
