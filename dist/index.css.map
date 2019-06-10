@@ -1,1 +1,0 @@
-{"version":3,"sources":["scss\\main.scss"],"names":[],"mappings":"AAEA;EACE,OAHQ;EAIR","file":"index.css","sourceRoot":"..\\src","sourcesContent":["$primary: rgb(126, 128, 0);\n\n.main {\n  color: $primary;\n  font-size: 50px;\n}\n"]}
