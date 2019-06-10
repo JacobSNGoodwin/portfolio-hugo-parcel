@@ -1,0 +1,16 @@
+[
+  {
+    "title": "NUXT Ghost Starter",
+    "description": "Nuxt Static and Universal site generation using the Ghost Content API and NUXTJS. Site fetches and provides Ghost blog data to NUXTJS components With data already provided to the VUE components, a site can be rapidly templated",
+    "repoLink": "https://github.com/Maxbrain0/nuxt-ghost-starter",
+    "activeSite": "https://blog.jacobsngoodwin.com",
+    "featureImage": null
+  },
+  {
+    "title": "Smith Plot",
+    "description": "Single page application for plotting network analyzer data from Touchstone Files",
+    "repoLink": "https://github.com/Maxbrain0/smith-plot",
+    "activeSite": "https://www.smithplot.com",
+    "featureImage": null
+  }
+]

@@ -2,4 +2,8 @@
 
 <h1>You're in the portfolio websites!</h1>
 
+{{ range $.Site.Data.projects }}
+  <h3>{{ .title }}</h3>
+{{end}}
+
 {{ end }}
