@@ -1,1 +1,4 @@
-<p>Menu partial</p>
+{{ range .Site.Menus.main }}
+  <p>Item</p>
+  {{.Title}}
+{{ end }}
