@@ -1,5 +1,8 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Jacob"
-
+title = "Jacob Professional"
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+[params]
+  AuthorName = "Jacob Goodwin"
+  GitHubUser = "maxbrain0"
