@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>{{ .Site.Title }}</title>
+    <title>{{ .Site.Title }} - {{.Page.Title}}</title>
     {{ $assets := .Site.Data.assets }}
     {{ with $assets.css }}
     <link href="{{ relURL . }}" rel="stylesheet" />
     {{ end }}
   </head>
   <body>
-    <h1 class="main">Baseof - main skeleton</h1>
     {{ block "main" . }}{{ end }}
 
     {{ with $assets.js }}
