@@ -11,8 +11,9 @@
     {{ end }}
   </head>
   <body>
+    {{ partial "menu.html" .}}
     {{ block "main" . }}{{ end }}
-
+    {{ partial "footer.html" . }}
     {{ with $assets.js }}
     <script src="{{ relURL .}}"></script>
     {{ end }}
