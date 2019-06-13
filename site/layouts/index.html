@@ -1,12 +1,4 @@
 {{ define "main" }}
 
-<h1>You're in the portfolio websites!</h1>
-
-{{ printf "%#v" $.Site.Params }}
-
-{{ range $.Site.Data.projects }}
-  <h3>{{ .title }}</h3>
-  <i class="fas fa-check"></i>
-{{end}}
 
 {{ end }}
