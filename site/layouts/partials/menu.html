@@ -1,8 +1,6 @@
-<h3>List of pages</h3>
-
 {{ $currentPage := . }}
 {{ range .Site.Menus.main }}
-<p>{{ .Title }} - {{ .URL }}</p>
+<p>{{ .Title }}</p>
 
 {{ if $currentPage.IsMenuCurrent "main" .}}
 <p><strong>Current Page</strong></p>
