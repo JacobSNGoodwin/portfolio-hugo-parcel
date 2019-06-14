@@ -11,14 +11,16 @@
     {{ end }}
   </head>
   <body>
-    <div class="menu">
-      {{ partial "menu.html" .}}
-    </div>
-    <div class="main">
-      {{ block "main" . }}{{ end }}
-    </div>
-    <div class="footer">
-      {{ partial "footer.html" . }}
+    <div class="container">
+      <div class="navbar">
+        {{ partial "menu.html" .}}
+      </div>
+      <div class="main">
+        {{ block "main" . }}{{ end }}
+      </div>
+      <div class="footer">
+        {{ partial "footer.html" . }}
+      </div>
     </div>
 
     {{ with $assets.js }}

@@ -1,8 +1,4 @@
 {{ $currentPage := . }}
 {{ range .Site.Menus.main }}
 <p>{{ .Title }}</p>
-
-{{ if $currentPage.IsMenuCurrent "main" .}}
-<p><strong>Current Page</strong></p>
-{{end}}
 {{ end }}
