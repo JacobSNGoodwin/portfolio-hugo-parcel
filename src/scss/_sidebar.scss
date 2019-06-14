@@ -1,0 +1,33 @@
+.sidebar {
+  grid-area: navbar;
+  background-color: $primary;
+  color: white;
+  display: flex;
+  width: 0px; // default to closed
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &.open {
+    width: $sidebar_width;
+  }
+
+  .nav-list {
+    font-weight: 700;
+
+    .nav-link {
+      padding: 0.5em 1em;
+      a {
+        color: white;
+      }
+      .active {
+        color: $accent;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: lighten($accent, 10%);
+        transition: 0.5s;
+      }
+    }
+  }
+}

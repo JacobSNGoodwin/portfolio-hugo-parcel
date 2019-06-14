@@ -3,6 +3,7 @@
 
 body {
   font-family: Tahoma, Verdana, Arial, sans-serif;
+  color: $dark;
   margin: 0;
 }
 
@@ -13,42 +14,25 @@ a {
 .container {
   display: grid;
   height: 100vh;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-areas: 'navbar main';
-}
-
-.navbar {
-  grid-area: navbar;
-  background-color: $primary;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-
-  .nav-list {
-    font-weight: 900;
-
-    .nav-link {
-      padding: 0.5em 1em;
-      a {
-        color: white;
-      }
-      .active {
-        color: $accent;
-        text-decoration: underline;
-      }
-      a:hover {
-        color: lighten($accent, 10%);
-        transition: 0.5s;
-      }
-    }
-  }
 }
 
 .main {
   grid-area: main;
   background-color: white;
   overflow: auto;
-  padding: 0 1em;
+  padding: 0 2em;
 }
+
+#menu-toggle {
+  margin-top: 1rem;
+  font-size: 32px;
+  font-weight: 500;
+  color: $primary;
+  @media screen and (min-width: $mobile_breakpoint+1px) {
+    display: none;
+  }
+}
+
+@import 'sidebar';
