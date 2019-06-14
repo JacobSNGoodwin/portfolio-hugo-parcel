@@ -1,4 +1,19 @@
 {{ $currentPage := . }}
+
+<div class="logo">
+<p>Logo Here</p>
+</div>
+
+<div class="nav-list">
 {{ range .Site.Menus.main }}
-<p>{{ .Title }}</p>
+  <div class="nav-link">
+    <a href="{{.URL}}" class="{{ if $currentPage.IsMenuCurrent "main" . }} active {{ end }}">{{ .Title }}</a>
+  </div>
 {{ end }}
+</div>
+
+
+<div class="copyright">
+<p>Image Here</p>
+<p>© 2019 - Jacob Goodwin</p>
+</div>
