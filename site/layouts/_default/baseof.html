@@ -12,11 +12,11 @@
   </head>
   <body>
     <div class="container">
-      <div class="sidebar">
+      <div class="sidebar mobile-closed">
         {{ partial "menu.html" .}}
       </div>
       <div class="main">
-        <div id="menu-toggle"><i class="fas fa-bars"></i></div>
+        <span id="menu-toggle"><i class="fas fa-bars fa-fw"></i></span>
         {{ block "main" . }}{{ end }}
       </div>
     </div>

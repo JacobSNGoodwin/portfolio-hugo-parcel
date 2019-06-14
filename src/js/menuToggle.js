@@ -4,5 +4,5 @@ const toggle = document.querySelector('#menu-toggle')
 const sidebar = document.querySelector('.sidebar')
 
 toggle.addEventListener('click', function() {
-  sidebar.classList.toggle('open')
+  sidebar.classList.toggle('mobile-closed')
 })
