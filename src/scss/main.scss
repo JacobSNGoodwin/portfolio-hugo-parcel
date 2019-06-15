@@ -15,7 +15,7 @@ a {
   display: grid;
   height: 100vh;
   grid-template-columns: auto 1fr;
-  grid-template-areas: 'navbar main';
+  grid-template-areas: 'menu main';
 }
 
 .main {
@@ -25,31 +25,19 @@ a {
   padding: 0 2em;
 }
 
-#menu-toggle {
-  display: inline-block;
-  margin-top: 8px;
-  height: 32px;
-  width: 32px;
-  font-weight: 500;
-  color: $primary;
-  background-color: $accent;
-  border-radius: 32px;
-  padding: 16px 16px;
+.footer {
+  display: none;
+}
 
-  &:active {
-    background-color: lighten($accent, 20%);
-    transition: background-color 1s;
+@media screen and (max-width: $mobile_breakpoint) {
+  .container {
+    display: flex;
+    flex-direction: column;
   }
 
-  svg {
-    width: 100%;
-    height: 100%;
-  }
-
-  cursor: pointer;
-  @media screen and (min-width: $mobile_breakpoint+1px) {
-    display: none;
+  .footer {
+    display: block;
   }
 }
 
-@import 'sidebar';
+@import 'menu';
