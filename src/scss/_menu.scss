@@ -1,6 +1,6 @@
 .menu {
   grid-area: menu;
-  background-color: $secondary;
+  background-color: $primary;
   color: white;
   display: flex;
   width: $sidebar_width; // default to closed
@@ -30,7 +30,7 @@
   @media screen and (max-width: $mobile_breakpoint) {
     width: 100%;
     display: flex;
-    .logo,
+
     .copyright {
       display: none;
     }
@@ -39,6 +39,7 @@
 
     .nav-list {
       display: flex;
+      font-weight: 400;
       flex-direction: row;
       flex-wrap: wrapl;
     }

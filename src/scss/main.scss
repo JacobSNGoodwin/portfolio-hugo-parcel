@@ -31,12 +31,21 @@ a {
 
 @media screen and (max-width: $mobile_breakpoint) {
   .container {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .footer {
+    min-height: 100vh;
+    height: auto;
     display: block;
+    position: relative;
+    .main {
+      padding-bottom: 20px;
+    }
+    .footer {
+      display: unset;
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      height: 20px;
+      background-color: $accent;
+    }
   }
 }
 
