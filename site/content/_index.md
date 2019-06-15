@@ -7,9 +7,9 @@ menu:
     weight: 10
 ---
 
-# Welcome
+# Hello
 
-Hi, I'm __Jacob__, a Full-Stack Web Developer.
+I'm __Jacob__, a Full-Stack Web Developer.
 
 ## Currently Working On
 

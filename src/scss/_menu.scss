@@ -35,13 +35,21 @@
       display: none;
     }
 
+    .logo {
+      padding-left: 1em;
+    }
+
     padding: 0.5em 0;
 
     .nav-list {
       display: flex;
       font-weight: 400;
       flex-direction: row;
-      flex-wrap: wrapl;
+      padding-right: 1em;
+
+      .nav-link {
+        padding: 0 0.5em;
+      }
     }
   }
 }
