@@ -49,10 +49,15 @@ a {
     }
     .footer {
       display: flex;
+      justify-content: center;
       flex-shrink: 0;
       width: 100%;   
-      height: $footer_height;
       background-color: $accent;
+
+      .footer-content {
+        padding: 1em 1em;
+
+      }
     }
   }
 }
