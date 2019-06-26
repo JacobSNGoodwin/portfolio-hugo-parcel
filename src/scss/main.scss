@@ -35,14 +35,6 @@ a {
     min-height: 100vh;
     flex-direction: column;
 
-    .menu {
-      display: flex;
-      position: fixed;
-      flex-direction: row;
-      justify-content: space-between;
-      height: $navbar_height;
-      flex-shrink: 0;
-    }
     .main {
       margin-top: $navbar_height + 16px;
       flex: 1 0 auto;
