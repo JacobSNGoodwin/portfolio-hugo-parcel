@@ -7,3 +7,7 @@ menu:
     url: "/contact"
     weight: 40
 ---
+
+## Contact info
+
+This is some dummy contact information

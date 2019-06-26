@@ -7,3 +7,7 @@ menu:
     url: "/portfolio"
     weight: 20
 ---
+
+## Portfolio Info
+
+This is a dummy portfolio page
