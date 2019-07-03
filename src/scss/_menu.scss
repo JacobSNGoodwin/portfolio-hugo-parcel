@@ -1,6 +1,6 @@
 .menu {
   grid-area: menu;
-  background-color: $secondary;
+  background-color: $primary;
   color: white;
   display: flex;
   width: $sidebar_width; // default to closed
@@ -41,10 +41,15 @@
       display: none;
     }
 
+    .logo {
+      padding-left: 1em;
+    }
+
     padding: 0.5em 0;
 
     .nav-list {
       display: flex;
+      font-weight: 400;
       flex-direction: row;
       flex-wrap: wrap;
       padding-right: 1em;

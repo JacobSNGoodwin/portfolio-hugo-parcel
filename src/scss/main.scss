@@ -32,11 +32,25 @@ a {
 @media screen and (max-width: $mobile_breakpoint) {
   .container {
     display: flex;
+    min-height: 100vh;
     flex-direction: column;
-  }
 
-  .footer {
-    display: block;
+    .main {
+      // margin-top: $navbar_height;
+      flex: 1 0 auto;
+    }
+    .footer {
+      display: flex;
+      justify-content: center;
+      flex-shrink: 0;
+      width: 100%;   
+      background-color: $accent;
+
+      .footer-content {
+        padding: 1em 1em;
+
+      }
+    }
   }
 }
 

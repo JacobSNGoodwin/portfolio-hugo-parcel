@@ -7,3 +7,7 @@ menu:
     url: "/resume"
     weight: 30
 ---
+
+## Resume Info
+
+This is a dummy resume page

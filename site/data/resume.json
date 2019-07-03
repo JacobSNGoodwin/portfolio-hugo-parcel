@@ -1,0 +1,38 @@
+{
+  "education": [
+    {
+      "school": "University of California, Davis",
+      "degree": "BS - Electrical Engineering",
+      "emphasis": "RF/Microwave Engineering",
+      "project": "Optic something or another",
+      "thesis": null,
+      "years": "2002-2004, 2006-2009"
+    },
+    {
+      "school": "University of California, Los Angeles",
+      "degree": "MS - Electrical Engineering",
+      "emphasis": "Electromagnetics",
+      "project": "Optic something or another",
+      "thesis": null,
+      "years": "2002-2004, 2006-2009"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Application Engineer",
+      "company": "CST/Dassault Systemes",
+      "location": "Santa Clara, California",
+      "description": "Description will go here"
+    },
+    {
+      "role": "Microwave and Sensors Engineer",
+      "company": "Sandia National Laboratories",
+      "description": "Description will go here"
+    },
+    {
+      "role": "Masters Engineer",
+      "company": "Northrop Grumman - Mission Systems",
+      "description": "Description will go here"
+    }
+  ]
+}

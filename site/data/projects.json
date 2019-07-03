@@ -12,5 +12,12 @@
     "repoLink": "https://github.com/Maxbrain0/smith-plot",
     "activeSite": "https://www.smithplot.com",
     "featureImage": null
+  },
+  {
+    "title": "Ghost Theme",
+    "description": "Single page application for plotting network analyzer data from Touchstone Files",
+    "repoLink": "https://github.com/Maxbrain0/smith-plot",
+    "activeSite": "https://www.smithplot.com",
+    "featureImage": null
   }
 ]
